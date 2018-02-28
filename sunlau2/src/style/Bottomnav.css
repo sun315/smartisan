@@ -1,0 +1,48 @@
+#root{
+	height:100%;
+}
+.App{
+	height:100%;
+	background:pink;
+}
+i{
+	color:#d8d8d8;
+}
+h4{
+	color:#9a9a9a;
+}
+.active i{
+	color:#666;
+	background:#f7f7f7;
+}
+.active h4{
+	color:#666;
+	background:#f7f7f7;
+}
+.bottomnav{
+	width:100%;
+	height:0.54rem;
+	background:#fff;
+	display:flex;
+	position:fixed;
+	bottom:0;
+}
+.bottomnav a{
+	flex:1;
+	text-align:center;
+}
+.bottomnav a li{
+	flex:1 1 100%;
+	text-align:center;
+}
+.bottomnav a li i{
+	display: block;
+	width:0.27rem;
+	height:0.27rem;
+	margin:0.07rem auto 0.02rem;
+	font-size:26px;
+}
+.bottomnav a li h4{
+	font-weight:600;
+	font-size:8px;
+}
