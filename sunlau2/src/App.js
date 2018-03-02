@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import { Button, WhiteSpace, WingBlank } from 'antd-mobile';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import './style/reset.css';
 import './style/App.css';

@@ -1,5 +1,4 @@
 import React ,{Component} from 'react';
-import { Button, WhiteSpace, WingBlank } from 'antd-mobile';
 import axios from 'axios';
 import Bottomnav from './Bottomnav';
 import toggle from '../img/nav-toggle.png';
@@ -142,7 +141,7 @@ export default class Home extends Component {
 			    			this.state.hot_goods_banner.map(function(item,index){
 			    				return (
 			    					<ul key={item.id}>
-						    			<li><img src={item.shop_info.ali_image} /></li>
+						    			<li><img src={item.shop_info.ali_image} alt=""/></li>
 						    			<li>
 						    				<p>{item.shop_info.title}</p>
 						    				<p>{item.shop_info.sub_title}</p>

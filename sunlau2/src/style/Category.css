@@ -10,6 +10,7 @@ section{
 section .mobile{
 	width:100%;
 	background: #fff;
+	margin-bottom:0.08rem;
 }
 section .mobile .mobile-tit{
 	width:100%;
@@ -100,3 +101,160 @@ section .mobile .mobile-con2 i{
 	color:#999;
 	font-weight: 700;
 }
+
+/*空气净化*/
+.air{
+	width:100%;
+	background: #fff;
+	margin-bottom:0.08rem;
+}
+.air .air-tit{
+	width:100%;
+	height:0.4rem;
+	line-height: 0.4rem;
+	font-size:14px;
+	font-weight: 900;
+	color:#666;
+	border-bottom: 1px solid #ebebeb;
+	padding:0 0.1rem;
+}
+.air .air-img{
+	width:100%;
+	height:1.1rem;
+	border-bottom: 1px solid #ebebeb;
+	padding:0.1rem;
+}
+.air .air-img img{
+	width:100%;
+	height:100%;
+}
+.air .air-con{
+	width:100%;
+	height:1.2rem;
+}
+.air .air-con ul{
+	width:100%;
+}
+.air .air-con ul li{
+	width:50%;
+	height:0.6rem;
+	display: flex;
+	float:left;
+	border-bottom: 1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+}
+.air .air-con ul li:nth-of-type(2),.air .air-con ul li:nth-of-type(4){
+	border-right:none;
+}
+.air .air-con ul li img{
+	width:20%;
+	height:80%;
+	margin-top:0.05rem;
+}
+.air .air-con ul li p{
+	width:70%;
+	height:100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size:8px;
+	color:#666;
+	font-weight: 600;
+	line-height: 0.6rem;
+}
+.air .air-con ul li span{
+	width:10%;
+	height:100%;
+	display: block;
+	line-height:0.6rem;
+	color:#999;
+	font-weight: 600;
+}
+
+/*充电线&耳机&服装*/
+.elec{
+	width:100%;
+	background: #fff;
+	margin-bottom:0.08rem;
+}
+.elec .elec-tit{
+	width:100%;
+	height:0.4rem;
+	line-height: 0.4rem;
+	font-size:14px;
+	font-weight: 900;
+	color:#666;
+	border-bottom: 1px solid #ebebeb;
+	padding:0 0.1rem;
+}
+.elec .elec-img{
+	width:100%;
+	height:1.1rem;
+	border-bottom: 1px solid #ebebeb;
+	padding:0.1rem;
+}
+.elec .elec-img img{
+	width:100%;
+	height:100%;
+}
+.elec .elec-con{
+	width:100%;
+	height:2.76rem;
+}
+.elec .elec-con ul{
+	width:100%;
+}
+.elec .elec-con ul li{
+	width:32%;
+	height:1.38rem;
+	float:left;
+	padding:0.18rem 0.15rem;
+}
+.elec .elec-con ul li:nth-of-type(2),.elec .elec-con ul li:nth-of-type(5){
+	margin:0 2%;
+}
+.elec .elec-con ul li img{
+	width:100%;
+	height:80%;
+	border: 1px solid #ebebeb;
+}
+.elec .elec-con ul li p{
+	width:100%;
+	height:20%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size:6px;
+	color:#666;
+	font-weight: 600;
+	line-height: 0.27rem;
+	text-align: center;
+}
+
+/*图书&文具&投影仪*/
+.book{
+	width:100%;
+	background: #fff;
+	margin-bottom:0.08rem;
+}
+.book .book-tit{
+	width:100%;
+	height:0.4rem;
+	line-height: 0.4rem;
+	font-size:14px;
+	font-weight: 900;
+	color:#666;
+	border-bottom: 1px solid #ebebeb;
+	padding:0 0.1rem;
+}
+.book .book-img{
+	width:100%;
+	height:1.1rem;
+	border-bottom: 1px solid #ebebeb;
+	padding:0.1rem;
+}
+.book .book-img img{
+	width:100%;
+	height:100%;
+}
+
