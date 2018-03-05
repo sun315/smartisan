@@ -20,6 +20,7 @@ export default class Home extends Component {
     		active:[],//入口图片
     		hot_goods_banner:[]//热销机型
 		}
+		this.goTo = this.goTo.bind(this);
 	}
   	componentDidMount() {
   		axios.get("marketing/mobile/index_e1b6c72ba511309a973b24e399f1b79f.json")
@@ -52,7 +53,12 @@ export default class Home extends Component {
         });
       }, 100);
     }
+    goTo(fid) {
+    	console.log(this);
+    	this.props.history.push("/detail/" + fid);
+    }
 	render() {
+		var that = this;
 		return (
 			<div>
 				{/* header */}
@@ -104,7 +110,7 @@ export default class Home extends Component {
 			    			{
 			    				this.state.hot_goods.map(function(item,index){
 			    					return (
-			    						<ul key={item.id}>
+			    						<ul key={item.id} onClick={()=>that.goTo(item.id)}>
 			    							<li><img src={item.shop_info.ali_image} alt=""/></li>
 			    							<li>
 			    								<p>{item.name}</p>

@@ -1,0 +1,17 @@
+html{
+	background:#e2e2e2;
+}
+section{
+	width:100%;
+	margin-top:0.5rem;
+	height:100%;
+	background: pink;
+}
+.goods_title{
+	color:#fff;
+	font-size:18px;
+	line-height:0.1rem;
+	padding:0.05rem 0 0;
+	margin-left:1.2rem;
+	font-weight:600;
+}

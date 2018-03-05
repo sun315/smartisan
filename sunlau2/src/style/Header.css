@@ -9,6 +9,21 @@ header{
 	right:0;
 	z-index:199;
 }
+.goback{
+	background-size:cover;
+	background-origin:content-box;
+	float:left;
+	height:60%;
+	line-height: 0.3rem;
+	padding:0 0.05rem;
+	margin:0.1rem 0 0 0.1rem;
+	width:0.64rem;
+	transition:none;
+	color:#fff;
+	font-weight: 700;
+	background: #070707;
+	border-radius:0.04rem;
+}
 .nav-toggle{
 	background:url(../img/nav.png) no-repeat 0 0.05rem;
 	background-size:cover;

@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Category from './components/Category';
 import Cart from './components/Cart';
 import Myself from './components/Myself';
+import Detail from './components/Detail';
 
 export default class App extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class App extends Component {
           <Route path="/category" component={Category} />
           <Route path="/cart" component={Cart} />
           <Route path="/myself" component={Myself} />
+          <Route path="/Detail/:fid" component={Detail} />
         </div>
       </Router>
     )
